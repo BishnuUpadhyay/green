@@ -1,0 +1,117 @@
+$main_color:#80b421;
+$secondary_color:#8cba46;
+
+
+.navbar{
+    background-color: white;
+    .navbar-brand{
+        color: $main_color;
+        font-size: 33px;
+        
+        span{
+            color: grey;
+        }
+    }
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 16px;
+    padding: .3rem .6rem;
+    margin: 0rem .5rem;
+}
+.carousel-caption{
+    bottom: 5.25rem;
+    h1{ display: inline-block;
+       margin: 1.6rem 1rem;
+        font-size: 40px;
+        background-color: $secondary_color;
+        font-weight: bold;
+    }
+    p{
+font-size:25px;
+color:#fff ;
+font-weight:bold ;
+    }
+}
+.block2{
+    background-color: $main_color;
+    color: white;
+}
+
+.block3{
+    color: #fff;
+}
+.row{
+    i{
+        color: $main_color;
+        margin-right: 1rem;
+    }
+}
+.block4{
+    i{
+        color:#fff;
+        background-color: $main_color;
+        padding: 1rem;
+        border-radius: 50%;
+    }
+    .text-sucess{
+        h2{
+        color: $secondary_color;
+        }
+    }
+}
+.block5{
+    .gallery_product{
+        img{
+            width: 100%;
+            padding-bottom: .5rem;
+        }
+    }
+}
+.block6{
+    img{
+        width: 100%;
+        border-radius: 50%;
+        border: 1px solid $main_color;
+    }
+}
+.social-media{
+    margin-top: 1rem;
+    a{
+        
+        i{
+            padding: .3rem .5rem;
+            border: 1px solid lightblue;
+        }
+    }
+}
+.navbar-light .navbar-nav .nav-link.active{
+    background-color: $main_color;
+    color: white;
+    border-radius: 10%;
+}
+
+
+footer{
+    margin-top: 10rem;
+    background-color:#242424;
+    color: whitesmoke;
+    .row{
+        .col-lg-4{
+            margin-top: 3rem;
+        }
+    }
+    p{
+        font-size: .8rem;
+    }
+}
+.footer_bottom{
+    background-color: #242424;
+    color: white;
+    p{
+        font-size: .8rem;
+    }
+       
+}
+ .right{
+text-align: right !important;
+      }
